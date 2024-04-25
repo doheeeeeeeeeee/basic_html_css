@@ -1,0 +1,49 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ img{
+    width: 100%;
+ }
+ 
+ body{
+    display: flex;
+    justify-content: center;
+ }
+
+ .contents_wrap{
+    width: 1200px;
+    padding: 200px 0;
+    height: 200px;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 500px;
+ }
+
+.header{
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ .header h2{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    color: #444;
+    margin-bottom: 10px;
+ }
+
+ .header h3{
+    font-weight: lighter;
+    text-align: center;
+    color: #444;
+ }
+
+ .photo{
+    margin-top: 50px;
+    width: 550px;     
+ }

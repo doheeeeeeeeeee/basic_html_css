@@ -1,0 +1,43 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+ }
+
+body{
+    text-align: center;
+ }
+
+.header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+.header h2{
+    font-size: 35px;
+    color: #666;
+    margin-bottom: 20px;
+ }
+
+.header p{
+    color: #666;
+ }
+
+.hero{
+    width:600px;
+    padding: 150px 0;
+    line-height: 1.6;
+    margin: 0 auto;    
+ }
+
+
+.hero h2{
+    font-size: 55px;
+    color: #666;
+    margin-bottom: 20px;
+ }
+
+
+.hero p{
+    color: #666;
+}

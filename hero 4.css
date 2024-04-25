@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+    border-bottom: 1px solid #444;
+}
+
+.header .nav .logo{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    gap: 10px;
+}
+.nav button{
+    width: 100px;
+    height: 46px;
+    border-radius: 46px;
+    background-color: #030169;
+    color: #fff;
+    border: 1px solid #030169;
+}
+
+.nav{
+    width: 1200px;
+    height: 72px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav .menu{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    gap: 20px
+}
+
+.hero{
+    margin: 100px 0;
+}
+
+.hero .contents{
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+
+}
+
+.hero .texts_wrap{
+    position: relative;
+    left: 620px;    
+
+}
+
+.hero .photo_wrap{
+    position: relative;
+    right: 620px;
+  
+}
+
+.hero .contents .photo_wrap .photo img{
+    width: 570px;
+  
+}
+
+.hero button{
+    width: 100px;
+    height: 46px;
+    border-radius: 46px;
+    background-color: #030169;
+    color: #fff;
+    border: 1px solid #030169;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+.hero .contents .texts_wrap .btns .outline{
+    background-color:#fff;
+    color: #030169;
+    
+}
+
+
+
+.hero .contents .texts h3{
+    font-size: 24px;
+    color: #444;
+    font-weight: normal;
+}
+
+    
+.hero .contents .texts h2{
+    font-size: 60px;
+    color: #444;
+}
+
+    
+.hero .contents .texts p{
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}

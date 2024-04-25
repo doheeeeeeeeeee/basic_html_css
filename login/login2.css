@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+  color: inherit;
+   text-decoration: none; 
+}
+
+body{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 40;
+    font-family:"Noto sans KR",sans-serif;
+}
+
+.login_wrap{
+    width: 1000px;
+    padding: 0 220px;
+}
+
+.login_wrap h2{
+    font-size:30px;
+}
+
+.login_form input{
+    width: 440px;
+    height: 50px;
+}
+
+.login_btns button.btns{
+    width: 440px;
+    height: 50px;
+    background-color: #ffcc00;
+    border: 1px solid #ffcc00;
+    border-radius: 2%;
+}
+
+.login_btns button.btns_outline{
+    width: 440px;
+    height: 50px;
+    background-color: #ccc;  
+    border: 1px solid #ccc;
+    border-radius: 2%;
+}
+
+.login_btns .mini_button{
+    color: #444;
+    font-size: 16px;  
+}
+
+.mini_button{
+    margin-top:15px;
+}
+
+.mini_button a{
+    margin-left: 215px;
+    padding: 0;
+    color: #666666;
+}
+
+.input h2{
+    font-size: 16px;
+}
+
+.agree{
+    font-size: 16px;
+    margin-top: 85px;
+}
+

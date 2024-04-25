@@ -1,0 +1,38 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    text-align: center;
+ }
+
+ img{
+    width: 100%;
+    height: 100%;
+ }
+
+ .contents{
+   margin-right: 25px;
+   margin-left: 25px;
+ }
+
+.contents .text{
+    margin-top: 65px;
+    margin-bottom: 65px;
+    color: #767578;
+    font-size: 20px;
+}
+
+.contents .photo{
+    width: 350px;
+    height: 350px; 
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.contents .photo_wrap{
+  display: flex;
+  justify-content: center;
+}

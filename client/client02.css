@@ -1,0 +1,183 @@
+<<<<<<< HEAD
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ ul{
+    list-style: none;
+ }
+
+  img{
+    width: 100%;
+  }
+
+ body{
+    color: #666;
+    line-height: 1.6;
+ }
+
+.container{
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #666;
+    line-height: 1.8;
+}
+
+.container {
+>>>>>>> d6a0616bc468df89be2061b7a11209b27cb1c008
+    width: 1220px;
+    margin: 120px auto;
+
+}
+<<<<<<< HEAD
+.title_wrap{
+    text-align: center;
+    margin-bottom: 50px ;
+}
+
+.title_wrap h2{
+    margin-bottom:36px ;
+    font-size: 20px;
+}
+.title_wrap p {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.contents{
+    display: flex;
+    gap: 28px;
+}
+
+.contents li{
+    width: 388px;
+    height: 412px;
+    padding: 50px 40px;
+    /*background-color: #ddd;*/
+    border: 1px solid #999;
+    border-radius: 24px;
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.container .contents .text_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 220px;
+    padding: 30px;
+    border-top-right-radius: 25px ;
+    border-bottom-right-radius: 25px ;
+
+}
+
+
+
+.contents li .thumb{
+=======
+
+.title_wrap {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title_wrap h2 {
+    font-size: 36px;
+    margin-bottom: 0 auto;
+}
+
+.title_wrap p {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contents {
+display: flex;
+gap: 28px;
+}
+
+.contents li {
+    width: 388px;
+    height: 412px;
+    background-color: #ddd;
+    padding: 50px 40px;
+    border-radius: 24px;
+    border: 1px solid #999;
+}
+.contents li .thumb {
+>>>>>>> d6a0616bc468df89be2061b7a11209b27cb1c008
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+<<<<<<< HEAD
+.contents li .thumb img{
+=======
+.contents li .thumb img {
+    width: 100%;
+>>>>>>> d6a0616bc468df89be2061b7a11209b27cb1c008
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+<<<<<<< HEAD
+.contents li h3{
+    font-size: 22px;
+    margin-bottom: 12px;
+    
+}
+
+.contents li p{
+    margin-bottom: 30px;
+
+}
+
+.contents li .user .name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+
+.contents li .job{
+    font-size: 18px;
+
+}
+=======
+
+.contents li h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.contents li p {
+    margin-bottom: 30px;
+}
+
+.contents li .user .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contents li .user .job {
+    font-size: 18px;
+}
+>>>>>>> d6a0616bc468df89be2061b7a11209b27cb1c008
